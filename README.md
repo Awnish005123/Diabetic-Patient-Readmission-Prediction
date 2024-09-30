@@ -1,10 +1,7 @@
 # Diabetic Patient Readmission Prediction
 
-![Project Banner](https://img.shields.io/badge/Project-Diabetic%20Readmission%20Prediction-blue?style=for-the-badge&logo=github)  
+ 
 ![R](https://img.shields.io/badge/R-4.0%2B-276DC3?style=flat&logo=r&logoColor=white)  
-![Build Status](https://img.shields.io/github/actions/workflow/status/Awnish005123/Diabetic-Patient-Readmission-Prediction/ci.yml?style=flat&logo=github-actions&logoColor=white)  
-![Kaggle Inspired](https://img.shields.io/badge/Kaggle-Inspired-20BEFF?style=flat&logo=kaggle&logoColor=white)  
-![RStudio](https://img.shields.io/badge/RStudio-IDE-75AADB?style=flat&logo=rstudio&logoColor=white)  
 
 ## Project Overview
 
