@@ -1,5 +1,7 @@
 # Diabetic Patient Readmission Prediction
-![R](https://img.shields.io/badge/R-4.0%2B-276DC3?style=flat&logo=r&logoColor Overview
+![R](https://img.shields.io/badge/R-4.0%2B-276DC3?style=flat&logo=r&logoColor) 
+
+# Overview
 
 This GitHub project predicts 30-day hospital readmissions for diabetic patients using machine learning models. It leverages a modified Kaggle notebook (originally by chongchong33) based on the UCI Diabetes 130-US Hospitals dataset (1999–2008), fully implemented in R for data exploration, preprocessing, modeling, and evaluation.
 
@@ -42,7 +44,7 @@ Additional Contributing Factors:
 
 *Insights*: Emphasizes the need for continued care after discharge to lower readmission rates, with complex patient profiles (multiple stays, diagnoses, and meds) strongly linked to higher risks.
 
-# Implications & Recommendations
+# Implications & Recommendation
 Clinical Impact: Actionable insights for hospitals to focus resources on inpatient treatment quality and robust post-discharge care programs, enabling early identification of high-risk patients for proactive interventions.
 
 Improved Patient Outcomes: Predictive modeling supports evidence-based strategies to prevent readmissions, enhancing quality of life for diabetic patients.
@@ -51,9 +53,8 @@ Healthcare Resource Optimization: Helps allocate resources effectively to reduce
 
 Technical Achievement: Successfully implemented and compared multiple machine learning approaches, demonstrating practical application of data science in clinical decision-making and providing evidence-based recommendations for healthcare practice improvement.
 
-# Quick Start
 
-## Install packages
+## packages
 install.packages(c("dplyr", "skimr", "stringr", "psych", "ROSE", "ggplot2", "caret"))
 
 ## Clone and run
