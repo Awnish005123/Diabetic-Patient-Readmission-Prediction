@@ -7,11 +7,11 @@ This GitHub project predicts 30-day hospital readmissions for diabetic patients 
 
 # Key Objectives:
 
-Build predictive models to identify high-risk diabetic patients for readmission.
+- Build predictive models to identify high-risk diabetic patients for readmission.
 
-Analyze factors like hospital stays, diagnoses, lab procedures, and medications.
+- Analyze factors like hospital stays, diagnoses, lab procedures, and medications.
 
-Recommend improved post-discharge care to reduce readmissions.
+- Recommend improved post-discharge care to reduce readmissions.
 
 *Dataset*: ~100,000 patient encounters from 130 US hospitals, with 50+ features including demographics, clinical data, medications, and lab results. Models evaluated: Logistic Regression, Decision Tree, Random Forest, Naïve Bayes (Random Forest as top performer with 73.22% accuracy).
 
