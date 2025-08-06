@@ -3,7 +3,7 @@
 
 # Overview
 
-This GitHub project predicts 30-day hospital readmissions for diabetic patients using machine learning models. It leverages a modified Kaggle notebook (originally by chongchong33) based on the UCI Diabetes 130-US Hospitals dataset (1999–2008), fully implemented in R for data exploration, preprocessing, modeling, and evaluation.
+This GitHub project predicts 30-day hospital readmissions for diabetic patients using machine learning models. It leverages UCI Diabetes 130-US Hospitals dataset (1999–2008), fully implemented in R for data exploration, preprocessing, modeling, and evaluation.
 
 # Key Objectives:
 
