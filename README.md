@@ -13,12 +13,14 @@ This GitHub project predicts 30-day hospital readmissions for diabetic patients 
 
 - Recommend improved post-discharge care to reduce readmissions.
 
-*Dataset*: ~100,000 patient encounters from 130 US hospitals, with 50+ features including demographics, clinical data, medications, and lab results. Models evaluated: Logistic Regression, Decision Tree, Random Forest, Naïve Bayes (Random Forest as top performer with 73.22% accuracy).
+*Dataset*: ~100,000 patient encounters from 130 US hospitals, with 50+ features including demographics, clinical data, medications, and lab results. 
 
-# Methods Used
+# Methods
 
-Developed a predictive model using comprehensive healthcare data (demographic, clinical, diagnostic, and medication features) to identify diabetic patients at high risk for 30-day readmission. Evaluated four machine learning algorithms (Logistic Regression, Decision Tree, Random Forest, and Naïve Bayes) using multiple performance metrics (accuracy, Kappa, ROC curve, confusion matrix). The R-based pipeline included data preprocessing (imputation, encoding, balancing with ROSE), exploratory analysis (using dplyr, skimr, psych, ggplot2), model training (caret), and cross-validation for robust evaluation.
-
+- Data preprocessing (imputation, encoding, balancing with ROSE), exploratory analysis (using dplyr, skimr, psych, ggplot2), model training (caret), and cross-validation for robust evaluation.
+  
+- Evaluated four machine learning algorithms (Logistic Regression, Decision Tree, Random Forest, and Naïve Bayes) using multiple performance metrics (accuracy, Kappa, ROC curve, confusion matrix).
+   
 Key Findings
 *Best Model*: Random Forest emerged as the optimal model with 73.22% accuracy, demonstrating superior performance on accuracy, Kappa, ROC curve, and confusion matrix.
 
@@ -43,16 +45,6 @@ Additional Contributing Factors:
 - HbA1c test values
 
 *Insights*: Emphasizes the need for continued care after discharge to lower readmission rates, with complex patient profiles (multiple stays, diagnoses, and meds) strongly linked to higher risks.
-
-# Implications & Recommendation
-Clinical Impact: Actionable insights for hospitals to focus resources on inpatient treatment quality and robust post-discharge care programs, enabling early identification of high-risk patients for proactive interventions.
-
-Improved Patient Outcomes: Predictive modeling supports evidence-based strategies to prevent readmissions, enhancing quality of life for diabetic patients.
-
-Healthcare Resource Optimization: Helps allocate resources effectively to reduce costly readmissions, with potential for significant economic savings (addressing $41B+ annual US costs).
-
-Technical Achievement: Successfully implemented and compared multiple machine learning approaches, demonstrating practical application of data science in clinical decision-making and providing evidence-based recommendations for healthcare practice improvement.
-
 
 ## packages
 install.packages(c("dplyr", "skimr", "stringr", "psych", "ROSE", "ggplot2", "caret"))
